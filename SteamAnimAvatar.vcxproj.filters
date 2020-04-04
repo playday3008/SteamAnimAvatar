@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Исходные файлы">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Файлы ресурсов">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Файлы заголовков\x64">
+      <UniqueIdentifier>{c0d3d374-d50c-456f-8091-967c40affb4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\x86">
+      <UniqueIdentifier>{c4a63024-83cd-4f3b-b44a-39f3eba1f253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\x86\curl">
+      <UniqueIdentifier>{261fa635-fa09-4614-9bfd-77bb1657b614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\x86">
+      <UniqueIdentifier>{141c3759-5703-4ead-91fa-c8e8831274d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\x64\curl">
+      <UniqueIdentifier>{720ee765-c3c7-4417-8fab-e9eb63a32ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\x64">
+      <UniqueIdentifier>{6d6f07bb-d68e-4bf2-a155-f4bd530f581c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SteamAnimAvatar.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\x86\defines.h">
+      <Filter>Файлы заголовков\x86</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x86\curl\curl.h">
+      <Filter>Файлы заголовков\x86\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x86\curl\curlver.h">
+      <Filter>Файлы заголовков\x86\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x86\curl\easy.h">
+      <Filter>Файлы заголовков\x86\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x86\curl\mprintf.h">
+      <Filter>Файлы заголовков\x86\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x86\curl\multi.h">
+      <Filter>Файлы заголовков\x86\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x86\curl\stdcheaders.h">
+      <Filter>Файлы заголовков\x86\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x86\curl\system.h">
+      <Filter>Файлы заголовков\x86\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x86\curl\typecheck-gcc.h">
+      <Filter>Файлы заголовков\x86\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x86\curl\urlapi.h">
+      <Filter>Файлы заголовков\x86\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x64\defines.h">
+      <Filter>Файлы заголовков\x64</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x64\curl\mprintf.h">
+      <Filter>Файлы заголовков\x64\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x64\curl\multi.h">
+      <Filter>Файлы заголовков\x64\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x64\curl\stdcheaders.h">
+      <Filter>Файлы заголовков\x64\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x64\curl\system.h">
+      <Filter>Файлы заголовков\x64\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x64\curl\typecheck-gcc.h">
+      <Filter>Файлы заголовков\x64\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x64\curl\urlapi.h">
+      <Filter>Файлы заголовков\x64\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x64\curl\curl.h">
+      <Filter>Файлы заголовков\x64\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x64\curl\curlver.h">
+      <Filter>Файлы заголовков\x64\curl</Filter>
+    </ClInclude>
+    <ClInclude Include="include\x64\curl\easy.h">
+      <Filter>Файлы заголовков\x64\curl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\x86\libcurl.lib">
+      <Filter>Файлы ресурсов\x86</Filter>
+    </Library>
+    <Library Include="lib\x64\libcurl.lib">
+      <Filter>Файлы ресурсов\x64</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\dll\x86\libcurl.dll">
+      <Filter>Файлы ресурсов\x86</Filter>
+    </None>
+    <None Include="lib\dll\x64\libcurl.dll">
+      <Filter>Файлы ресурсов\x64</Filter>
+    </None>
+    <None Include="lib\dll\x86\libcrypto-1_1.dll">
+      <Filter>Файлы ресурсов\x86</Filter>
+    </None>
+    <None Include="lib\dll\x86\libssh2.dll">
+      <Filter>Файлы ресурсов\x86</Filter>
+    </None>
+    <None Include="lib\dll\x86\libssl-1_1.dll">
+      <Filter>Файлы ресурсов\x86</Filter>
+    </None>
+    <None Include="lib\dll\x86\nghttp2.dll">
+      <Filter>Файлы ресурсов\x86</Filter>
+    </None>
+    <None Include="lib\dll\x64\libcrypto-1_1-x64.dll">
+      <Filter>Файлы ресурсов\x64</Filter>
+    </None>
+    <None Include="lib\dll\x64\libssh2.dll">
+      <Filter>Файлы ресурсов\x64</Filter>
+    </None>
+    <None Include="lib\dll\x64\libssl-1_1-x64.dll">
+      <Filter>Файлы ресурсов\x64</Filter>
+    </None>
+    <None Include="lib\dll\x64\nghttp2.dll">
+      <Filter>Файлы ресурсов\x64</Filter>
+    </None>
+  </ItemGroup>
+</Project>
