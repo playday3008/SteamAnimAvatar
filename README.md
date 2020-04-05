@@ -1,5 +1,5 @@
 # SteamAnimAvatar
-Steam Animated Avatar
+Steam Animated Avatar based on [steamavatarchange](https://github.com/Leystryku/steamavatarchange)
 
 This program automatically changes your steam avatar. http://i.imgur.com/4qUCv8A.gifv
 
